@@ -1,7 +1,7 @@
 # CycleGANs
 
 ## Overview
-This project utilizes CycleGANs to perform image-to-image translation tasks. The goal is to learn the mapping between an input image and an output image using a training set of aligned image pairs.
+This project utilises CycleGANs to perform image-to-image translation tasks. The goal is to learn the mapping between an input image and an output image using a training set of aligned image pairs.
 
 ## Features
 - **Data Preparation**: Scripts for unzipping and organizing datasets.
