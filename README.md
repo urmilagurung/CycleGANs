@@ -1,12 +1,25 @@
 # CycleGANs
 
 ## Overview
-This project utilises CycleGANs to perform image-to-image translation tasks. The goal is to learn the mapping between an input image and an output image using a training set of aligned image pairs.
+This repository contains the Jupyter Notebook and associated files for the CycleGANs project, which is focused on using an existing model for image-to-image translation tasks.
 
-## Features
-- **Data Preparation**: Scripts for unzipping and organizing datasets.
-- **Image Processing**: Functions for loading, normalizing, and preprocessing images.
-- **Model Training**: Code for setting up CycleGAN models, loss functions, and training loops.
-- **Visualization**: Utilities for visualizing the results of the image translation.
+## Setup
+The project utilises Google Colab for executing the code. The necessary libraries and dependencies are listed in the notebook and can be installed using `pip`.
 
+## Dataset Preparation
+The dataset includes various image categories such as cats, dogs, and human faces. The images are unzipped, renamed, and organised into appropriate directories for processing.
 
+## Image Processing
+The notebook details the steps for comparing images, copying them into a single folder, and renaming file extensions to `.jpg` only.
+
+## Creating Dataset Objects
+Instructions for creating dataset objects for training and testing are provided. This includes preprocessing functions and defining dataset parameters.
+
+## Model Training
+The notebook outlines the process for training the CycleGAN model using the prepared datasets.
+
+## Visualisation
+Code for visualising sample images from the datasets is included to ensure the data is correctly processed before training.
+
+## Acknowledgements
+The project makes use of TensorFlow, TensorFlow Addons, TensorFlow Datasets, and other open-source libraries.
